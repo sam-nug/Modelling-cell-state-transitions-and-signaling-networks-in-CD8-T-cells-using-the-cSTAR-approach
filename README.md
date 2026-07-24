@@ -25,7 +25,8 @@ The 12 drugs taken:
 Source: GEO accession **GSE306429** (CD8+ T cells only), DeMeo et al. 2025.
 Download the series and place the derived per-compound expression / IC50 files
 in the working directory.
-Two other file are included BTLAvsTCR_24h.csv and cd8_limma_merged_filtered_targets_ic50_dpd.csv
+The other file are included BTLAvsTCR_24h.csv, cd8_limma_merged_filtered_targets_ic50_dpd.csv, cd8_limma_merged_filtered_targets_ic50.csv, cd8_limma_merged_filtered.csv, CD8_Szabo_Activation_Markers.csv,
+merged_CD8+_limma.csv
 
 ## Pipeline stages
 
