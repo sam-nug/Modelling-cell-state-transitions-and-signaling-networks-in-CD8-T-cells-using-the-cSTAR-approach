@@ -1,4 +1,4 @@
-# Modelling-cell-state-transitions-and-signaling-networks-in-CD8-T-cells-using-the-cSTAR-approach
+# cSTAR Drug Perturbations
 Modelling cell state transitions and signaling networks in CD8+ T cells using the cSTAR approach
 # Network Inference of CD8+ T-Cell Drug Perturbations
 
