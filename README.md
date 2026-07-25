@@ -10,7 +10,7 @@ single-cell RNA-seq data using a three-stage computational pipeline:
 
 The pipeline infers direct connections between seven signalling modules that are perturbed by 12 targeted drugs. Each of the signallings are as a response of CD8+ T cells to the drugs. Modules are selected based on their dynamic phenotype descriptor (DPD), per-drug activity is estimated from IC50 values. Each of the pathway-activity coefficients are learned from cSTAR, and the module 
 network is reconstructed using Modular Response Analysis (MRA) across three estimators (Bayesian regression, OLS, ODR).
-Two phenotype descriptors are used: the DPD score dot product of stim vs unstim and a BTLA score. Both are regressed onto the module network in the final MRA stage via FPTU
+Two phenotype descriptors are used: the DPD score dot product of stim vs unstim and a BTLA score. Both are regressed onto the module network in the final MRA stage via FPTU. The pipeline also offers a version running using BTLA vs TCR data against the original file. 
 
 The seven modules selected:
 - **Modules:** ARFGAP, BCL, IGF1R, JAK, MTOR, NAE, SERCA
